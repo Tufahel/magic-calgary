@@ -1,5 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import pic6 from '../../public/images/pic6.jpeg';
+import pic from '../../public/images/pic.jpeg';
+import pic1 from '../../public/images/pic1.jpeg';
+import pic2 from '../../public/images/pic2.jpeg';
 
 export default function HomePage() {
   return (
@@ -372,7 +376,7 @@ export default function HomePage() {
             <div className="order-2 lg:order-1">
               <div className="relative">
                 <Image
-                  src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src={pic6}
                   className="w-full h-96 rounded-2xl object-cover shadow-2xl"
                   alt="Medical professional examining genetic data"
                   width={800}
@@ -593,7 +597,7 @@ export default function HomePage() {
             <article className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="aspect-video bg-gradient-to-br from-green-100 to-blue-100 relative">
                 <Image
-                  src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                  src={pic}
                   alt="Understanding Genetic Disorders"
                   width={600}
                   height={400}
@@ -622,7 +626,7 @@ export default function HomePage() {
             <article className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="aspect-video bg-gradient-to-br from-blue-100 to-purple-100 relative">
                 <Image
-                  src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                  src={pic1}
                   alt="The Role of Metabolics in Health"
                   width={600}
                   height={400}
@@ -651,7 +655,7 @@ export default function HomePage() {
             <article className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 relative">
                 <Image
-                  src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                  src={pic2}
                   alt="Innovations in Rare Disease Treatment"
                   width={600}
                   height={400}

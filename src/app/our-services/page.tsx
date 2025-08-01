@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import pic3 from '../../../public/images/pic3.jpeg';
+import pic4 from '../../../public/images/pic4.jpeg';
 
 export default function OurServicesPage() {
   return (
@@ -221,7 +223,7 @@ export default function OurServicesPage() {
             
             <div className="relative">
               <Image
-                src="https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src={pic3}
                 className="w-full rounded-2xl object-cover shadow-2xl"
                 alt="Medical team with DNA sequencing technology"
                 width={800}
@@ -274,7 +276,7 @@ export default function OurServicesPage() {
             
             <div className="relative">
               <Image
-                src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src={pic4}
                 className="w-full rounded-2xl object-cover shadow-2xl"
                 alt="DNA sequencing technology"
                 width={800}

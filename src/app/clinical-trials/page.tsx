@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import pic5 from '../../../public/images/pic5.jpeg';
 
 export default function ClinicalTrialsPage() {
   return (
@@ -180,7 +181,7 @@ export default function ClinicalTrialsPage() {
             <div className="relative">
               <div className="aspect-[4/3] bg-gradient-to-br from-blue-500 to-teal-600 rounded-3xl overflow-hidden shadow-2xl">
                 <Image 
-                  src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  src={pic5} 
                   alt="DNA Research" 
                   width={800}
                   height={600}
